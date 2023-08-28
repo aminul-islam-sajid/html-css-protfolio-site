@@ -1,0 +1,262 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 0px;
+    font-weight: 700;
+    padding: 15px;
+}
+
+/* nav related style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-size: 45px;
+    color: #181818;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #FFF8F3;
+    padding-top: 30px;
+    padding-right: 50px;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+
+/* banner section */
+.nav-banner {
+    padding-left: 50px;
+}
+
+.developer-img {
+    display: flex;
+
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-img {
+    width: 584px;
+    height: 676px;
+}
+
+.banner-gritting {
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600;
+    margin-bottom: -40px;
+}
+
+.banner-heading {
+    font-size: 85px;
+    color: #181818;
+    font-weight: 700;
+}
+
+/* 2nd-title */
+.title-2nd {
+    text-align: center;
+    background-color: #FFF8F3;
+    margin: 100px 100px 80px 100px;
+    padding: 130px 155px 130px 155px;
+    border-radius: 8px;
+}
+
+.title-2nd-heade {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.title-2nd-title {
+    font-size: 18px;
+    color: #474747;
+    font-weight: 400;
+}
+
+.title-2nd-colam {
+    display: flex;
+    justify-content: center;
+
+}
+
+.title-2nd-colam>div {
+    margin-right: 50px;
+}
+
+.title-2nd-p {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.title-2nd-h3 {
+    color: #181818;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+/* whit i do  */
+.what-i-do {
+    text-align: center;
+}
+
+.what-head {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.what-title {
+    color: #474747;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* what i do ar porer section */
+.flex-rectangel {
+    display: flex;
+    margin: 0px 50px 0px 50px;
+}
+
+.rectangel {
+    align-items: center;
+
+    margin: 24px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 33px 30px 33px;
+}
+
+/* summery section  */
+.summery {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.rezume {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.rezume-2ndpart {
+    padding-left: 50px;
+}
+
+.rezume-heade {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.rezume-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.rezume-ins {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.rezume-dis {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-rezume {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+/* footer section  */
+footer {
+    background-color: #FFF8F3;
+}
+
+.footer-section {
+    display: flex;
+    padding: 130px 100px 130px 100px;
+    gap: 117px;
+}
+
+.text {
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    border: 0px;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 18px;
+    font-size: 18px;
+    display: block;
+
+}
+
+.textarea {
+    width: 461px;
+    height: 180px;
+    background: #FFF;
+    border: 0px;
+    padding: 18px;
+    font-size: 18px;
+    display: block;
+
+}
+
+.footer-head {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.icon a {
+    margin-right: 24px;
+}
